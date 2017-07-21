@@ -55,3 +55,4 @@ Module.symvers
 Mkfile.old
 dkms.conf
 >>>>>>> c87bf215aca306c4ca6b51f12fd9bec73ec3b274
+main.c
