@@ -45,7 +45,6 @@ WifiPortal* parse_config(char* config_path, char* ssid) {
   char line[LINE_LENGTH];
 
   while (fgets(line, LINE_LENGTH, config) != NULL) {
-    printf("%c\n", line[LINE_LENGTH-2]);
     char* tmp = strtok(line, "\t");
 
     strncpy(wifi_portal->ssid, tmp, SSID_LEN);
